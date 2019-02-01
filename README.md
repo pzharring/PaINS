@@ -1,6 +1,5 @@
 # PaINS
 Parallel Inviscid Navier-Stokes Solver
-Peter Harrington
 
 3D parallel fluid dynamics simulation application for solving compressible Navier-Stokes equations, with no viscosity.
 Code uses the Rusanov method to solve the equations, with parallelization done by decomposing the domain along the z-direction into slabs.
